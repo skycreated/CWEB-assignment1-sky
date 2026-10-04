@@ -1,0 +1,111 @@
+<h1>Sky's Auto Shop Complaint Form</h1>
+<form
+    id="cForm"
+    action="/submitComplaint"
+    method="POST"
+    enctype="multipart/form-data"
+>
+    <h2>Customer Info:</h2>
+
+<h3>
+    Name:
+</h3>
+    <input
+        type="text"
+        name="fullName"
+        placeholder="Name"
+        id="name"
+        required
+    >
+
+<h3>
+    Email:
+</h3>
+    <input
+        type="text"
+        name="email"
+        placeholder="Email@123.com"
+        required
+    >
+
+<h3>
+    Phone:
+</h3>
+    <input
+        type="tel"
+        name="phone"
+        placeholder="123-456-7890"
+        required
+    >
+
+    <h2>Vehicle Info:</h2>
+
+<h3>
+    Vehicle Make:
+</h3>
+    <input
+        type="text"
+        name="make"
+        placeholder="Vehicle Make"
+        required
+    >
+
+<h3>
+    Vehicle Model:
+</h3>
+    <input
+        type="text"
+        name="model"
+        placeholder="Vehicle Model"
+        required
+    >
+
+<h3>
+    Vehicle Identification Number:
+</h3>
+    <input
+        type="text"
+        name="vin"
+        placeholder="VIN"
+        required
+    >
+
+    <h2>Complaint Details</h2>
+
+<h3>
+    Subject:
+</h3>
+    <input
+        type="text"
+        name="subject"
+        placeholder="Subject"
+        
+    >
+
+<h3>
+    Detailed Description of Complaint:
+</h3>
+    <textarea
+        name="description"
+        placeholder="Type Here..."
+        
+    ></textarea>
+
+<h3>
+    Upload:
+</h3>
+    <label>Upload Image:</label>
+
+    <input
+        type="file"
+        name="image"
+        accept="image/*"
+    >
+
+<h3>
+    Submit:
+</h3>
+    <button type="submit">
+        Submit For Review
+    </button>
+</form>

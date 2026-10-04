@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    padding: 25px;
+    color: deeppink;
+}
+
+form {
+    background-color: floralwhite;
+    color: deeppink;
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input:focus, textarea:focus{
+    outline: 3px solid hotpink;
+}
+
+
+
+input,
+textarea {
+    width: 65%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px dashed darkslateblue;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+button {
+    background-color: pink;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 17px;
+}
